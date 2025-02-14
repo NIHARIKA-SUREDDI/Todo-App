@@ -1,4 +1,4 @@
-const API_URL = "https://todo-app-t3xl.onrender.com/api/task";
+const API_URL = "http://localhost:8080/api/tasks/";
 
 document.addEventListener("DOMContentLoaded", () => {
     loadTasks();
