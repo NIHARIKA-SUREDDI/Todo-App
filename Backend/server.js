@@ -6,6 +6,10 @@ const taskRoutes = require("./routes/taskroutes");
 
 const app = express();
 
+
+app.get('/',(req,res)=>{
+    res.send("this is test route");
+})
 // Middleware
 app.use(express.json());
 app.use(cors());
